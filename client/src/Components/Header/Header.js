@@ -10,7 +10,7 @@ export default function Header() {
   const [records , setRecords ] = useState([]);
 
     const getAllMeals = () => {
-        fetch(`http://localhost:5000/meals/getAllMeals`)
+        fetch(`https://meals-finder.onrender.com/meals/getAllMeals`)
         .then((response) => response.json())
         .then((meals) => {
             console.log(meals.data);
