@@ -1,1 +1,1 @@
-const GLOBAL_URL = "http://localhost:5000"
+const GLOBAL_URL = "https://meals-finder.onrender.com/"
