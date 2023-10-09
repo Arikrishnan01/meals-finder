@@ -1,0 +1,1 @@
+const GLOBAL_URL = "http://localhost:5000"
