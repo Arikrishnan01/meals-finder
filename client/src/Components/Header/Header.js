@@ -10,7 +10,7 @@ export default function Header() {
   const [records , setRecords ] = useState([]);
 
     const getAllMeals = () => {
-        fetch(`https://meals-finder.onrender.com/meals/getAllMeals`)
+        fetch(`https://meals-finder-ten.vercel.app/meals/getAllMeals`)
         .then((response) => response.json())
         .then((meals) => {
             console.log(meals.data);

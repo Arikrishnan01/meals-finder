@@ -16,7 +16,7 @@ export default function AddMeals() {
             mealsName,
             mealsVideo
         }
-        fetch(`https://meals-finder.onrender.com/meals/createMeals`,{
+        fetch(`https://meals-finder-ten.vercel.app/meals/createMeals`,{
             method: "POST",
             body: JSON.stringify(addNewMeals),
             headers: {
