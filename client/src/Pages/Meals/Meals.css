@@ -1,3 +1,26 @@
+.meals-container-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 35px;
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    margin-left: 90%;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 7px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.meals-container-btn:hover{
+    background-color: orangered;
+    color: white;
+}
+
 .meals-container{
     display: flex;
     flex-wrap: wrap;
